@@ -28,7 +28,7 @@ const Header = () => {
     <header className="hero-section" id="home">
       <nav className={`navbar ${isSticky ? "sticky" : ""}`}>
         <div className="logo">Explore India</div>
-        <div className="nav-toggle" onClick={toggleNav}>
+        <div className={`nav-toggle ${isNavActive ? 'active' : ''}`} onClick={toggleNav}>
           <span style={{ backgroundColor: "orangered" }}></span>
           <span></span>
           <span style={{ backgroundColor: "green" }}></span>
