@@ -1,74 +1,73 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import "../assets/css/style.css";
 
 const Header = () => {
   const [isSticky, setIsSticky] = useState(false);
   const [isNavActive, setIsNavActive] = useState(false);
+  const navLinksRef = useRef(null);
+  const navToggleRef = useRef(null);
 
+  // Handle sticky navbar
   useEffect(() => {
-    const handleScroll = () => {
-      if (window.pageYOffset) {
-        setIsSticky(true);
-      } else {
-        setIsSticky(false);
+    const handleScroll = () => setIsSticky(window.pageYOffset > 0);
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
+
+  // Toggle navbar visibility
+  const toggleNav = () => setIsNavActive(prev => !prev);
+
+  // Close the navbar when clicking outside
+  useEffect(() => {
+    const handleClickOutside = event => {
+      if (
+        navLinksRef.current &&
+        !navLinksRef.current.contains(event.target) &&
+        navToggleRef.current &&
+        !navToggleRef.current.contains(event.target)
+      ) {
+        setIsNavActive(false);
       }
     };
 
-    window.addEventListener("scroll", handleScroll);
-
-    return () => {
-      window.removeEventListener("scroll", handleScroll);
-    };
+    document.addEventListener("click", handleClickOutside);
+    return () => document.removeEventListener("click", handleClickOutside);
   }, []);
 
-  const toggleNav = () => {
-    setIsNavActive(!isNavActive);
-  };
   return (
     <header className="hero-section" id="home">
       <nav className={`navbar ${isSticky ? "sticky" : ""}`}>
         <div className="logo">Explore India</div>
-        <div className={`nav-toggle ${isNavActive ? 'active' : ''}`} onClick={toggleNav}>
+        <div
+          ref={navToggleRef}
+          className={`nav-toggle ${isNavActive ? 'active' : ''}`}
+          onClick={toggleNav}
+        >
           <span style={{ backgroundColor: "orangered" }}></span>
           <span></span>
           <span style={{ backgroundColor: "green" }}></span>
         </div>
-        <ul className={`nav-links ${isNavActive ? "active" : ""}`}>
-          <li>
-            <a href="#home">Home</a>
-          </li>
-          <li>
-            <a href="#landmarks">Landmarks</a>
-          </li>
-          <li>
-            <a href="#state">States</a>
-          </li>
-          <li>
-            <a href="#UT">Union Territories</a>
-          </li>
+        <ul ref={navLinksRef} className={`nav-links ${isNavActive ? "active" : ""}`}>
+          {["Home", "Landmarks", "States", "Union Territories"].map((text, index) => (
+            <li key={index}>
+              <a href={`#${text.replace(" ", "").toLowerCase()}`} onClick={() => setIsNavActive(false)}>
+                {text}
+              </a>
+            </li>
+          ))}
         </ul>
       </nav>
       {isSticky && <div className="navbar-placeholder"></div>}
       <div className="hero-bg-section">
         <div className="marquee-container">
           <div className="marquee-text">
-            <span className="star">★</span> Welcome to India! &nbsp;&nbsp;&nbsp;
-            <span className="star">★</span> &nbsp;भारत में आपका स्वागत है!
-            &nbsp;&nbsp;&nbsp;
-            <span className="star">★</span> &nbsp;भारतात आपले स्वागत आहे!
-            &nbsp;&nbsp;&nbsp;
-            <span className="star">★</span> &nbsp;Welcome to India!
-            &nbsp;&nbsp;&nbsp;&nbsp;
-            <span className="star">★</span> &nbsp;भारत में आपका स्वागत है!
-            &nbsp;&nbsp;&nbsp;
-            <span className="star">★</span> &nbsp;भारतात आपले स्वागत आहे!
-            &nbsp;&nbsp;&nbsp;
-            <span className="star">★</span> &nbsp;Welcome to India!
-            &nbsp;&nbsp;&nbsp;
-            <span className="star">★</span> &nbsp;भारत में आपका स्वागत है!
-            &nbsp;&nbsp;&nbsp;
-            <span className="star">★</span> &nbsp;भारतात आपले स्वागत आहे!
-            &nbsp;&nbsp;&nbsp;<span className="star">★</span>
+            {Array(4).fill(null).map((_, i) => (
+              <React.Fragment key={i}>
+                <span className="star">★</span> Welcome to India! &nbsp;&nbsp;&nbsp;
+                <span className="star">★</span> &nbsp;भारत में आपका स्वागत है! &nbsp;&nbsp;&nbsp;
+                <span className="star">★</span> &nbsp;भारतात आपले स्वागत आहे! &nbsp;&nbsp;&nbsp;
+              </React.Fragment>
+            ))}
           </div>
         </div>
         <img className="hero-desktop" src="/images/i7.png" alt="Hero-Image" />
