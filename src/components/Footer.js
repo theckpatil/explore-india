@@ -12,10 +12,10 @@ const Footer = () => {
                 <div className="social-icon"><a href="https://www.facebook.com/theckpatil/"><i
                             className="fa-brands fa-facebook-f"></i></a></div>
                 <div className="social-icon"><a href="https://www.linkedin.com/in/theckpatil/"><i
-                            class="fa-brands fa-linkedin-in"></i></a></div>
+                            className="fa-brands fa-linkedin-in"></i></a></div>
                 <div className="social-icon"><a href="https://github.com/theckpatil/"><i
-                            class="fa-brands fa-github"></i></a></div>
-                <div className="social-icon"><a href="https://ckpatil.vercel.app/"><i class="fa-solid fa-user-tie"></i></a>
+                            className="fa-brands fa-github"></i></a></div>
+                <div className="social-icon"><a href="https://ckpatil.vercel.app/"><i className="fa-solid fa-user-tie"></i></a>
                 </div>
             </div>
       </div>

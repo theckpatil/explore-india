@@ -9,7 +9,7 @@
     "dress": "Western and traditional attire",
     "festival": "Island Tourism Festival",
     "sport": "Water Sports",
-    "image": "./assets/images/UT/A&N_map.webp",
+    "image": "/images/UT/A&N_map.webp",
     "wiki_link": "https://en.wikipedia.org/wiki/Andaman_and_Nicobar_Islands",
     "official_link": "https://andaman.gov.in/"
   },
@@ -23,7 +23,7 @@
     "dress": "Traditional Punjabi attire",
     "festival": "Rose Festival",
     "sport": "Cricket",
-    "image": "./assets/images/UT/chandigarh_map.jpg",
+    "image": "/images/UT/chandigarh_map.jpg",
     "wiki_link": "https://en.wikipedia.org/wiki/Chandigarh",
     "official_link": "http://chandigarh.gov.in/"
   },
@@ -37,7 +37,7 @@
     "dress": "Traditional Gujarati attire",
     "festival": "Nariyal Poornima",
     "sport": "Water Sports",
-    "image": "./assets/images/UT/dadra_map.jpg",
+    "image": "/images/UT/dadra_map.jpg",
     "wiki_link": "https://en.wikipedia.org/wiki/Dadra_and_Nagar_Haveli",
     "official_link": "http://dnh.gov.in/"
   },
@@ -51,7 +51,7 @@
     "dress": "Modern and traditional Indian attire",
     "festival": "Diwali",
     "sport": "Cricket",
-    "image": "./assets/images/UT/Delhi_map.png",
+    "image": "/images/UT/Delhi_map.png",
     "wiki_link": "https://en.wikipedia.org/wiki/Delhi",
     "official_link": "http://delhi.gov.in/"
   },
@@ -65,7 +65,7 @@
     "dress": "Traditional Kerala attire",
     "festival": "Eid ul-Fitr",
     "sport": "Water Sports",
-    "image": "./assets/images/UT/lakshadweep-map.jpg",
+    "image": "/images/UT/lakshadweep-map.jpg",
     "wiki_link": "https://en.wikipedia.org/wiki/Lakshadweep",
     "official_link": "http://lakshadweep.gov.in/"
   },
@@ -79,7 +79,7 @@
     "dress": "Traditional Ladakhi attire",
     "festival": "Hemis Festival",
     "sport": "Polo",
-    "image": "./assets/images/UT/Ladakh_map.jpg",
+    "image": "/images/UT/Ladakh_map.jpg",
     "wiki_link": "https://en.wikipedia.org/wiki/Ladakh",
     "official_link": "http://ladakh.nic.in/"
   },
@@ -93,7 +93,7 @@
     "dress": "Traditional South Indian attire",
     "festival": "Pongal",
     "sport": "Kabaddi",
-    "image": "./assets/images/UT/map-pondicherry.gif",
+    "image": "/images/UT/map-pondicherry.gif",
      "wiki_link": "https://en.wikipedia.org/wiki/Puducherry_(union_territory)",
     "official_link": "http://py.gov.in/"
   },
@@ -107,7 +107,7 @@
     "dress": "Pheran",
     "festival": "Shikara Festival",
     "sport": "Cricket",
-    "image": "./assets/images/UT/j&k_map.png",
+    "image": "/images/UT/j&k_map.png",
     "wiki_link": "https://en.wikipedia.org/wiki/Jammu_and_Kashmir_(union_territory)",
     "official_link": "http://jk.gov.in/"
   }

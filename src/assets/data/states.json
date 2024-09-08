@@ -9,7 +9,7 @@
     "landmark": "Tirupati Temple",
     "dress": "Sari and Dhoti",
     "festival": "Ugadi",
-    "image": "./assets/images/states/andhra_map.svg",
+    "image": "/images/states/andhra_map.svg",
     "wiki_link":"https://en.wikipedia.org/wiki/Andhra_Pradesh",
     "official_link":"https://ap.gov.in/"
   },
@@ -23,7 +23,7 @@
     "landmark": "Tawang Monastery",
     "dress": "Gale and Jacket",
     "festival": "Losar",
-    "image": "./assets/images/states/arunachal_map.jpg",
+    "image": "/images/states/arunachal_map.jpg",
     "wiki_link":"https://en.wikipedia.org/wiki/Arunachal_Pradesh",
     "official_link":"https://arunachalpradesh.gov.in/"
   },
@@ -37,7 +37,7 @@
     "landmark": "Kamakhya Temple",
     "dress": "Mekhela Chador",
     "festival": "Bihu",
-    "image": "./assets/images/states/Assam_map.jpg",
+    "image": "/images/states/Assam_map.jpg",
     "wiki_link":"https://en.wikipedia.org/wiki/Assam",
     "official_link":"https://assam.gov.in/"
   },
@@ -51,7 +51,7 @@
     "landmark": "Mahabodhi Temple",
     "dress": "Dhoti and Kurta",
     "festival": "Chhath Puja",
-    "image": "./assets/images/states/Bihar_map.png",
+    "image": "/images/states/Bihar_map.png",
     "wiki_link":"https://en.wikipedia.org/wiki/Bihar",
     "official_link":"https://state.bihar.gov.in/main/CitizenHome.html"
   },
@@ -65,7 +65,7 @@
     "landmark": "Chitrakoot Falls",
     "dress": "Lugda and Kachhora",
     "festival": "Bastar Dussehra",
-    "image": "./assets/images/states/Chhattisgarh_map.jpg",
+    "image": "/images/states/Chhattisgarh_map.jpg",
     "wiki_link":"https://en.wikipedia.org/wiki/Chhattisgarh",
     "official_link":"https://cgstate.gov.in/"
   },
@@ -79,7 +79,7 @@
     "landmark": "Basilica of Bom Jesus",
     "dress": "Pano Bhaju",
     "festival": "Carnival",
-    "image": "./assets/images/states/Goa_map.png",
+    "image": "/images/states/Goa_map.png",
     "wiki_link":"https://en.wikipedia.org/wiki/Goa",
     "official_link":"https://goa.gov.in/"
   },
@@ -93,7 +93,7 @@
     "landmark": "Statue of Unity",
     "dress": "Chaniya Choli and Kediyu",
     "festival": "Navratri",
-    "image": "./assets/images/states/Gujarat_map.jpg",
+    "image": "/images/states/Gujarat_map.jpg",
     "wiki_link":"https://en.wikipedia.org/wiki/Gujarat",
     "official_link":"https://gujaratindia.gov.in/"
   },
@@ -107,7 +107,7 @@
     "landmark": "Kingdom of Dreams",
     "dress": "Dhoti and Kurta",
     "festival": "Lohri",
-    "image": "./assets/images/states/Haryana_map.svg",
+    "image": "/images/states/Haryana_map.svg",
     "wiki_link":"https://en.wikipedia.org/wiki/Haryana",
     "official_link":"https://Haryana.gov.in/"
   },
@@ -121,7 +121,7 @@
     "landmark": "Rohtang Pass",
     "dress": "Chola and Dora",
     "festival": "Dussehra",
-    "image": "./assets/images/states/Himachal_map.png",
+    "image": "/images/states/Himachal_map.png",
     "wiki_link":"https://en.wikipedia.org/wiki/Himachal_Pradesh",
     "official_link":"https://himachal.nic.in/en-IN/"
   },
@@ -135,7 +135,7 @@
     "landmark": "Dassam Falls",
     "dress": "Panchi and Parhan",
     "festival": "Sarhul",
-    "image": "./assets/images/states/Jharkhand_map.jpg",
+    "image": "/images/states/Jharkhand_map.jpg",
     "wiki_link":"https://en.wikipedia.org/wiki/Jharkhand",
     "official_link":"http://jharkhand.gov.in/"
   },
@@ -149,7 +149,7 @@
     "landmark": "Mysore Palace",
     "dress": "Sari and Lungi",
     "festival": "Dasara",
-    "image": "./assets/images/states/Karnataka_map.png",
+    "image": "/images/states/Karnataka_map.png",
     "wiki_link":"https://en.wikipedia.org/wiki/Karnataka",
     "official_link":"http://Karnataka.gov.in/"
   },
@@ -163,7 +163,7 @@
     "landmark": "Alleppey Backwaters",
     "dress": "Mundu and Neriathu",
     "festival": "Onam",
-    "image": "./assets/images/states/Kerala_map.jpg",
+    "image": "/images/states/Kerala_map.jpg",
     "wiki_link":"https://en.wikipedia.org/wiki/Kerala",
     "official_link":"http://kerala.gov.in/"
   },
@@ -177,7 +177,7 @@
     "landmark": "Sanchi Stupa",
     "dress": "Lugda and Dhoti",
     "festival": "Lokrang",
-    "image": "./assets/images/states/MP_map.png",
+    "image": "/images/states/MP_map.png",
     "wiki_link":"https://en.wikipedia.org/wiki/Madhya_Pradesh",
     "official_link":"http://mp.gov.in/"
   },
@@ -191,7 +191,7 @@
     "landmark": "Gateway of India",
     "dress": "Nauvari Sari and Dhoti",
     "festival": "Ganesh Chaturthi",
-    "image": "./assets/images/states/Maharashtra_map.jpg",
+    "image": "/images/states/Maharashtra_map.jpg",
     "wiki_link":"https://en.wikipedia.org/wiki/Maharashtra",
     "official_link":"https://maharashtra.gov.in/"
   },
@@ -205,7 +205,7 @@
     "landmark": "Loktak Lake",
     "dress": "Phanek and Innaphi",
     "festival": "Yaoshang",
-    "image": "./assets/images/states/Manipur_map.svg",
+    "image": "/images/states/Manipur_map.svg",
     "wiki_link":"https://en.wikipedia.org/wiki/Manipur",
     "official_link":"https://manipur.gov.in/"
   },
@@ -219,7 +219,7 @@
     "landmark": "Living Root Bridges",
     "dress": "Jainsem",
     "festival": "Nongkrem Dance",
-    "image": "./assets/images/states/meghalay_map.jpg",
+    "image": "/images/states/meghalay_map.jpg",
     "wiki_link":"https://en.wikipedia.org/wiki/Meghalaya",
     "official_link":"https://meghalaya.gov.in/"
   },
@@ -234,7 +234,7 @@
     "landmark": "Durtlang Hills",
     "dress": "Puan and Khumbeu",
     "festival": "Chapchar Kut",
-    "image": "./assets/images/states/Mizoram_map.jpg",
+    "image": "/images/states/Mizoram_map.jpg",
     "wiki_link":"https://en.wikipedia.org/wiki/Mizoram",
     "official_link":"https://mizoram.gov.in/"
   },
@@ -248,7 +248,7 @@
     "landmark": "Kohima War Cemetery",
     "dress": "Naga Shawl",
     "festival": "Hornbill Festival",
-    "image": "./assets/images/states/Nagaland_map.png",
+    "image": "/images/states/Nagaland_map.png",
     "wiki_link":"https://en.wikipedia.org/wiki/Nagaland",
     "official_link":"https://nagaland.gov.in/"
   },
@@ -262,7 +262,7 @@
     "landmark": "Jagannath Temple",
     "dress": "Sambalpuri Sari and Dhoti",
     "festival": "Rath Yatra",
-    "image": "./assets/images/states/odisha_map.jpg",
+    "image": "/images/states/odisha_map.jpg",
     "wiki_link":"https://en.wikipedia.org/wiki/Odisha",
     "official_link":"https://odisha.gov.in/"
 
@@ -277,7 +277,7 @@
     "landmark": "Golden Temple",
     "dress": "Salwar Kameez and Kurta Pajama",
     "festival": "Baisakhi",
-    "image": "./assets/images/states/punjab_map.png",
+    "image": "/images/states/punjab_map.png",
     "wiki_link":"https://en.wikipedia.org/wiki/Punjab,_India",
     "official_link":"https://punjab.gov.in/"
   },
@@ -291,7 +291,7 @@
     "landmark": "Hawa Mahal",
     "dress": "Ghagra Choli and Dhoti",
     "festival": "Desert Festival",
-    "image": "./assets/images/states/Rajasthan_map.svg",
+    "image": "/images/states/Rajasthan_map.svg",
     "wiki_link":"https://en.wikipedia.org/wiki/Rajasthan",
     "official_link":"https://rajasthan.gov.in/"
   },
@@ -305,7 +305,7 @@
     "landmark": "Rumtek Monastery",
     "dress": "Bakhu",
     "festival": "Losar",
-    "image": "./assets/images/states/sikkim_map.jpg",
+    "image": "/images/states/sikkim_map.jpg",
     "wiki_link":"https://en.wikipedia.org/wiki/Sikkim",
     "official_link":"https://sikkim.gov.in/"
   },
@@ -319,7 +319,7 @@
     "landmark": "Brihadeeswarar Temple",
     "dress": "Sari and Veshti",
     "festival": "Pongal",
-    "image": "./assets/images/states/Tamilnadu_map.jpg",
+    "image": "/images/states/Tamilnadu_map.jpg",
     "wiki_link":"https://en.wikipedia.org/wiki/Tamil Nadu",
     "official_link":"https://www.tn.gov.in/"
   },
@@ -333,7 +333,7 @@
     "landmark": "Charminar",
     "dress": "Sari and Dhoti",
     "festival": "Bonalu",
-    "image": "./assets/images/states/telangana_map.jpg",
+    "image": "/images/states/telangana_map.jpg",
     "wiki_link":"https://en.wikipedia.org/wiki/Telangana",
     "official_link":"https://telangana.gov.in/"
   },
@@ -347,7 +347,7 @@
     "landmark": "Neermahal Palace",
     "dress": "Rignai and Rikutu",
     "festival": "Kharchi Puja",
-    "image": "./assets/images/states/tripura_map.jpg",
+    "image": "/images/states/tripura_map.jpg",
     "wiki_link":"https://en.wikipedia.org/wiki/Tripura",
     "official_link":"https://tripura.gov.in/"
   },
@@ -361,7 +361,7 @@
     "landmark": "Taj Mahal",
     "dress": "Sari and Dhoti",
     "festival": "Diwali",
-    "image": "./assets/images/states/UP_map.jpg",
+    "image": "/images/states/UP_map.jpg",
     "wiki_link":"https://en.wikipedia.org/wiki/Uttar_Pradesh",
     "official_link":"https://up.gov.in/"
   },
@@ -375,7 +375,7 @@
     "landmark": "Kedarnath Temple",
     "dress": "Sari and Dhoti",
     "festival": "Kumbh Mela",
-    "image": "./assets/images/states/UK_map.png",
+    "image": "/images/states/UK_map.png",
     "wiki_link":"https://en.wikipedia.org/wiki/Uttarakhand",
     "official_link":"https://uk.gov.in/"
   },
@@ -389,7 +389,7 @@
     "landmark": "Victoria Memorial",
     "dress": "Sari and Dhoti",
     "festival": "Durga Puja",
-    "image": "./assets/images/states/wb_map.png",
+    "image": "/images/states/wb_map.png",
     "wiki_link":"https://en.wikipedia.org/wiki/West_Bengal",
     "official_link":"https://wb.gov.in/"
   }
