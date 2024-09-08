@@ -1,23 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
+import './assets/css/style.css';
+import './assets/css/landmark.css';
+import './assets/css/states.css';
+import './assets/css/footer.css';
+import Header from './components/Header';
+import Landmarks from './components/Landmarks';
+import States from './components/States';
+import UnionTerritories from './components/UnionTerritories';
+import Footer from './components/Footer';
+import ScrollToTop from './components/ScrollToTop';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header />
+      <main>
+        <Landmarks />
+        <States />
+        <UnionTerritories />
+      </main>
+      <ScrollToTop/>
+      <Footer />
     </div>
   );
 }
