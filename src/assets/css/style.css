@@ -13,7 +13,6 @@ body{
     font-family: 'Montserrat', sans-serif;
     line-height: 1.5;
     color: #393838;
-
 }    
 
 .top{
@@ -58,9 +57,7 @@ body{
     object-fit: cover;
     display: block;
 }
-#home, #landmarks, #state, #UT {
-    scroll-margin-top: 60px; /* Adjust this value based on your navbar height */
-  }
+
 .navbar{
     display: flex;
     justify-content: space-between;
@@ -72,36 +69,42 @@ body{
     background: rgb(18, 24, 62);
     transition: top 0.3s ease-in-out, transform 0.3s ease-in-out; 
 }
+/* Sticky navbar style */
 .sticky {
     position: fixed;
     top: 0;
     left: 0;
     right: 0;
-    z-index: 1000;
-  }
-  .navbar-placeholder {
-    height: 60px; /* Same as the height of the navbar */
+    z-index: 1001;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transform: translateY(-100%);
+    transition: transform 50s ease-in-out, top 50s ease-in-out;
+}
+
+.navbar-placeholder {
+    display: none;
+    height: 0;
     visibility: hidden;
-    transition: height 0.3s ease, visibility 0s 0.3s; /* Smooth transition */
-  }
+    /* transition: height 50s ease-in; */
+}
 .logo {
     text-decoration: none;
     font-size: 1.5rem;
     font-weight: 700;
-    text-transform: uppercase;
+    cursor:grab;
     color: #ffffff ;
     text-shadow: 2px 2px 4px rgba(0, 100, 0, 0.15);
     transition: transform 0.3s ease, color 1s ease-in-out; /* Adjust the duration as needed */
 }
-
+.logo:hover{
+    transform:scale(1.2);
+}
 .nav-links {
     display: flex;
     list-style: none;;
 }
 .nav-links li{
-    margin-left: 2rem;
-    text-transform: uppercase;
-    letter-spacing: 0.5px;
+    margin-left: 2.5rem;
 }
 .nav-links a{
     text-decoration: none;
